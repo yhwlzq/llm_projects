@@ -1,0 +1,19 @@
+vLLMEngineArgs:
+  model_name_or_path: /home/mystic/PycharmProjects/quantity/ragbi/qwen3-8b-awq
+  tensor_parallel_size: 1
+  quantization: 'awq'
+  max_num_seqs: 64
+  max_model_len: 1024
+  trust_remote_code: True
+  gpu_memory_utilization: 0.85
+
+vLLM_Sampling:
+  early_stopping: False
+  top_p: 0.9
+  temperature: 0.3
+  max_num_seqs: 64
+  max_tokens: 1024
+  repetition_penalty: 1
+
+
+

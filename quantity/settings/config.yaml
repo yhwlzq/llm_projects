@@ -1,0 +1,17 @@
+awq:
+  model_name_or_path: /mnt/c/Users/zhouq/AI学习/Qwen3-8B
+  quanity_type: awq
+  calibration_dataset:  /mnt/c/Users/zhouq/AI学习/FineTome-100k/data
+  output_dir: qwen3-8b-awq
+  zero_point: True
+
+gptq:
+  model_name_or_path: /mnt/c/Users/zhouq/AI学习/Qwen2.5-0.5B-Instruct
+  quanity_type: qptq
+  calibration_dataset: /mnt/c/Users/zhouq/AI学习/alpaca-gpt4-data-zh
+  output_dir: qwen3-8b-qptq
+  zero_point: True
+
+
+
+
