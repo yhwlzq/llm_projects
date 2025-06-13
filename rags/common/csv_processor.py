@@ -4,7 +4,7 @@ import logging
 from pathlib import Path
 from typing import Dict, Generator
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from processor.settings import settings
+from settings import settings
 import json
 
 

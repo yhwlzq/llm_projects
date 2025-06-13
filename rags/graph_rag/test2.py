@@ -348,11 +348,11 @@ if __name__ == "__main__":
         print("正在从PDF提取知识图谱...")
         graph_documents = system.extract_and_store_knowledge_graph(documents)
         
-        # 4. 可视化知识图谱
-        print("正在可视化知识图谱...")
-        system.visualize_knowledge_graph(local_visualization=True)
+        # # 4. 可视化知识图谱
+        # print("正在可视化知识图谱...")
+        # system.visualize_knowledge_graph(local_visualization=True)
         
-        # 5. 初始化向量存储
+        #5. 初始化向量存储
         print("正在初始化向量存储...")
         vector_store = system.initialize_vector_store(documents, overwrite=True)
         

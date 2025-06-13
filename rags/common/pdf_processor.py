@@ -3,7 +3,7 @@ import hashlib
 import logging
 from pathlib import Path
 from typing import Dict, Generator, List, Any, Optional
-from processor.settings import settings
+from settings import settings
 import fitz  # PyMuPDF
 
 

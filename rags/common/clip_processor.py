@@ -6,7 +6,7 @@ import torch
 from PIL import Image
 from io import BytesIO
 from typing import  List
-from processor.settings import settings
+from settings import settings
 from fastapi import FastAPI, HTTPException, UploadFile, File
 from transformers import CLIPModel
 

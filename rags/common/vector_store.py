@@ -6,7 +6,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from chromadb.utils import embedding_functions
 import logging
 from typing import Dict, List, Union, Optional
-from processor.settings import settings, FileType
+from settings import settings, FileType
 from functools import lru_cache
 import hashlib
 
