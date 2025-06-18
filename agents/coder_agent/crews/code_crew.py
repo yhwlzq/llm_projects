@@ -12,6 +12,9 @@ class CodeCrew():
     def run(self, subtasks)->Crew:
         agent = DevelopAgent().get_agent()
         dev_tasks = []
+        print("*****************")
+        print(subtasks)
+        print("*****************")
         subtasks = json.loads(subtasks)
         for i in subtasks:
             prompt = f"""{i["prompt"]}, Function Name: {i['function_name']}"""
