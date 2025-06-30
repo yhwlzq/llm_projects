@@ -95,7 +95,6 @@ router_task = Task(
 )
 
 
-
 retriever_task = Task(
     description=("Based on the response from the router task extract information for the question {question} with the help of the respective tool."
     "Use the web_serach_tool to retrieve information from the web in case the router task output is 'websearch'."

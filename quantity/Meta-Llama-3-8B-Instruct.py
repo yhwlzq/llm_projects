@@ -17,9 +17,7 @@ import os
 
 
 # # 从环境变量读取 token（更安全）
-# hf_token = os.getenv("HF_TOKEN","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")  # 需提前设置环境变量
-# if hf_token is not None:
-#     login(token="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")
+
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)

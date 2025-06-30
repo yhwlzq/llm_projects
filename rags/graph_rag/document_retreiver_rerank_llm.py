@@ -17,6 +17,7 @@ from hashlib import md5
 import uuid
 from typing import List
 import logging
+import tiktoken
 
 logging.getLogger("pdfminer").setLevel(logging.ERROR)  # 屏蔽pdfminer警告
 logging.getLogger("pymupdf").setLevel(logging.ERROR)  # 屏蔽pymupdf警告

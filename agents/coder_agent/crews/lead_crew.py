@@ -15,7 +15,7 @@ class LeadCrew():
         crew =  Crew(
             tasks=[tasks],
             agents=[agent],
-            verbose=True
+            verbose=True,
         )
         result = crew.kickoff()
         return ResponseCleaner().clean_response(result.raw)
